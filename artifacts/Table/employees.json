@@ -1,0 +1,73 @@
+{
+	"id": "19abf06b-ea3e-4aa0-9803-63c075164a26",
+	"createdAt": "2023-08-22T11:58:33.000Z",
+	"createdBy": "admin",
+	"fields": [
+		{
+			"id": "414c8028-a68d-4a8c-98f6-27912815a012",
+			"fieldName": "firstName",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "6b20c65f-7d03-4004-8f34-328331f7aef1",
+			"fieldName": "lastName",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "6ae8a3af-c673-4b0b-c90b-84f1acd82578",
+			"fieldName": "department",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "2cd76062-364c-4071-8b0f-6af85a156e85",
+			"fieldName": "email",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "7b8ba2e1-e435-4459-b796-2c20e43103c2",
+			"fieldName": "date_of_birth",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "968e917e-4ada-4cf3-a99a-3ad5eb64cf4b",
+			"fieldName": "role",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "db8b0ff1-1028-432e-a477-74cc2e68bc13",
+			"fieldName": "image",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "f51665c1-0df7-4256-a170-d3699546f7bd",
+			"fieldName": "bio",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": true
+		}
+	],
+	"indices": [],
+	"foreignKeys": [],
+	"name": "employees",
+	"description": "List of sample employees",
+	"ver": "23.8.22.1747",
+	"enableAudit": false,
+	"includeDataInPackage": false,
+	"package": "8a53fc33-15f5-403e-8027-05d69a7abc64",
+	"rolesRead": [],
+	"rolesWrite": []
+}

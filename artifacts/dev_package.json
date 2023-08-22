@@ -1,0 +1,70 @@
+{
+	"id": "8a53fc33-15f5-403e-8027-05d69a7abc64",
+	"createdAt": "2023-08-22T15:31:50.000Z",
+	"createdBy": "admin",
+	"git": {
+		"remote": "https://github.com/ellacenz/dashboard-analytics.git"
+	},
+	"name": "Dashboard_details",
+	"description": null,
+	"ver": "23.8.22.1750",
+	"enableCICD": true,
+	"apps": [
+		{
+			"id": "6f046b3c-fb67-41b6-8880-a5bbcb740783",
+			"application": "side_panel",
+			"title": "HR Managment Portal",
+			"description": ""
+		}
+	],
+	"api": [
+		{
+			"id": "1e60942d-eb00-4d65-a709-05bd05945480",
+			"name": "API employees",
+			"description": null,
+			"apiGroup": null
+		}
+	],
+	"odataSource": [],
+	"odataMock": [],
+	"dictionary": [
+		{
+			"id": "19abf06b-ea3e-4aa0-9803-63c075164a26",
+			"name": "employees",
+			"description": "List of sample employees"
+		}
+	],
+	"jsclass": [],
+	"jsscript_group": [],
+	"theme": [],
+	"pdf": [],
+	"rulesengine": [],
+	"reports": [],
+	"api_authentication": [],
+	"api_group": [],
+	"tile": [],
+	"category": [],
+	"launchpad": [],
+	"certificates": [],
+	"role": [],
+	"systems": [],
+	"doc": [],
+	"wf_notifications": [],
+	"department": [],
+	"script_scheduler": [],
+	"wf_definition": [],
+	"connector": [],
+	"events": [],
+	"media_library": [
+		{
+			"id": "c2c37fec-ebfd-40f7-a8ac-61f4a16456e1",
+			"updatedAt": "2023-08-22T15:48:10.000Z",
+			"name": "HR Portal",
+			"parent": null,
+			"package": "8a53fc33-15f5-403e-8027-05d69a7abc64"
+		}
+	],
+	"code_snippets": [],
+	"wf_determination": [],
+	"wf_taskaction": []
+}
