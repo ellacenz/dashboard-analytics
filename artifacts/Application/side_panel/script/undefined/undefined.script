@@ -1,0 +1,47 @@
+.sapMShellCentralBox {
+  position: revert;
+}
+
+/* For screens smaller than 600px (typical mobile screens) */
+@media only screen and (max-width: 600px) {
+  /* Reduce button width to fit on smaller screens */
+  .resizedBtn {
+    width: 90% !important;
+  }
+}
+.sapMIBar.sapMHeader-CTX {
+  color: #666769;
+  height: 4rem;
+  padding-top: 10px;
+}
+
+.sapMSFF {
+  border-radius: 2rem;
+  width: 40rem;
+}
+
+.smallBox {
+  border: 1px solid;
+  border-color: rgb(134, 121, 121);
+  padding: 0.7rem 2.5rem;
+  margin-left: 1.5rem;
+  border-radius: 5px;
+  background-color: white;
+}
+
+.smallerBox {
+  border: 1px solid;
+  border-color: rgb(134, 121, 121);
+  padding: 0.6rem 0.8rem;
+  margin-left: 0.6rem;
+  border-radius: 5px;
+  background-color: white;
+}
+
+@media (min-width: 1280px) {
+  html.sap-desktop .sapMShellAppWidthLimited .sapMShellCentralBox {
+    width: 100%;
+    margin-left: 0px;
+    background-color: rgba(255, 255, 255, 0.3);
+  }
+}
